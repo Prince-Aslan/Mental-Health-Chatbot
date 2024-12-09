@@ -70,11 +70,7 @@ def ingest_document(document_path):
     index.upsert(upsert_data)
     print(f"Successfully upserted {len(upsert_data)} chunks into Pinecone.")
 
-    # # Create embeddings and add to the index with unique IDs
-    # for i, text_chunk in enumerate(texts):  # Use index to make each chunk's ID unique
-    #     unique_id = f"{os.path.basename(document_path)}_{i}"  # Generate a unique ID
-    #     vector = embeddings.embed_query(text_chunk)  # Generate embedding for each chunk
-    #     index.upsert([(unique_id, vector)])  # Upsert into Pinecone index
+   
 
 
 if __name__ == "__main__":
