@@ -85,7 +85,7 @@ To configure these, edit the `config.json` file:
 
 ## Limitations
 - Limited training data -  the ChatBot was built on just DSM-5 summary data of less than 10 pages
-- Less Rou=boust Foundational Model - Mistralai isnt roboust in its perormace as compared to llama 3 or openai
+- Less Roboust Foundational Model - Mistralai isnt roboust in its perormace as compared to llama 3 or openai
 
 ## Future Enhancements
 - Add multilingual support.
