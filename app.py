@@ -30,7 +30,7 @@ if "messages" not in st.session_state:
     st.session_state.messages = []  # Initialize messages as an empty list
 
 # Streamlit UI
-st.title("🧠 Mental Health Assistant Chatbot")
+st.title("🧠 Mental Health Diagnosis Bot")
 st.write("""
 Welcome to the Mental Health Assistant. Ask me any question related to mental health disorders, and I'll try to assist you. 
 If I cannot find relevant information, I'll let you know. 
