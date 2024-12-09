@@ -35,8 +35,8 @@ This project is a document retrieval system that leverages **Pinecone**, a vecto
 ### Steps
 1. Clone the repository:
    ```bash
-   git clone https://github.com/your-username/chatbot.git
-   cd chatbot
+   git clone https://github.com/Prince-Aslan/Mental-Health-Chatbot.git
+   cd Mental-Health-Chatbot
    ```
 
 2. Install dependencies:
@@ -46,7 +46,9 @@ This project is a document retrieval system that leverages **Pinecone**, a vecto
 
 3. Run the chatbot locally:
    ```bash
-   python app.py
+   streamlit run app.py
+   or
+   python main.py  [to run it on terminal]
    ```
 
 4. Access the chatbot via your browser at `http://localhost:8501` or the provided Streamlit URL.
