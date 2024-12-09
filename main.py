@@ -58,6 +58,8 @@ class ChatBot:
         You MUST ONLY use the provided context to answer the question. If the context does NOT contain sufficient information about the question, respond with:
         "I'm sorry. My response is currently limited to the content in my Database."
 
+        You MUST ONLY RESPOND and COMMUNICATE in ENGLISH LANGUAGE at ALL TIMES
+
         Context: {context}
 
         **Question:** {question}
