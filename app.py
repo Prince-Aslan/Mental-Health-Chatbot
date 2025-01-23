@@ -37,7 +37,7 @@ If I cannot find relevant information, I'll let you know.
 """)
 
 
-@st.cache_data
+
 def generate_response(user_input):
     try:
         result = chatbot.qa_chain.invoke(user_input)
