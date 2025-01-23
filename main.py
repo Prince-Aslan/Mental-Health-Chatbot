@@ -39,7 +39,7 @@ class ChatBot:
         self.retriever = self.docsearch.as_retriever()  # Use retriever interface
 
         # Initialize HuggingFaceEndpoint LLM
-        repo_id = "mistralai/Mixtral-8x7B-Instruct-v0.1"
+        repo_id = "mistralai/Mistral-7B-Instruct-v0.2"
         self.llm = HuggingFaceEndpoint(
             repo_id=repo_id,
             top_k=50,
